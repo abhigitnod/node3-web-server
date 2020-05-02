@@ -1,7 +1,3 @@
-console.log("Hey Page has been loaded successfully. And This message is supposed to be displayed on the brousers console and not in node's console");
-
-
-
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input');
 const messageOne = document.querySelector('#message-1');
