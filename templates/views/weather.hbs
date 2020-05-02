@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather page</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="/js/app.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h1>Weather Information: </h1>
+        <h2>{{title}}</h2>
+        <p>For {{location}} is:</p>
+        <p>Temperature - {{temprature}}</p>
+        <p>Pressure - {{pressure}}</p>
+        <p>Humidity - {{humidity}}</p>
+    </div>
+    
+    {{>footer}}
+</body>
+</html>
